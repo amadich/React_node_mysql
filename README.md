@@ -51,3 +51,11 @@ const db = mysql.createConnection({
  i think this is mysql_connect in php
 #
 after this Start in your Project in folder [client]
+befor starting in client react project dont forger to listing your server : 
+```js
+const Port = 3001; // I added 3001 becouse port react 3000 and mysql workbench listeing in 3306 so you can add diffiernt of this Ports !!
+app.listen(Port, () => {
+    console.log("Welcome To The Port : 3001");
+})
+```
+###
