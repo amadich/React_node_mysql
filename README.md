@@ -48,6 +48,6 @@ const db = mysql.createConnection({
     database: "users_sys"
 })
 ```
-# i think this is mysql_connect in php
+ i think this is mysql_connect in php
 #
 after this Start in your Project in folder [client]
